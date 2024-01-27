@@ -1,0 +1,71 @@
+<abbr> -- tag is use for mark up abravation or acronym
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+when we hover on WHO then long form highlighted
+class--text-break is use when large text  is present it brek text to prevent layout breaking
+
+.text-muted, .text-primary, .text-success, .text-info, .text-warning,
+ .text-danger, .text-secondary, .text-white, .text-dark, .text-body (default body color/often black) and .text-light:
+ also we give color name direclty text-red
+ also we can provide opacity like text-white-50 it only usful for black and whtitr
+
+
+ baground colorThe classes for background colors are: .bg-primary==blue, 
+ .bg-success==green, .bg-info==sky blue, .bg-warning ==yellow, .bg-danger==denger, .bg-secondary==grey, 
+ .bg-dark==balck and .bg-light==white.
+
+
+ for creating table use class table to add border all side use table boreder
+  <table class="table table-bordered">
+  table hover
+   <table class="table table-hover">
+   for dark table
+     <table class="table table-dark">
+
+     for dark striped table
+       <table class="table table-dark table-striped">
+       hoverable dark table
+       <table class="table table-dark table-hover">
+       borderless table
+         <table class="table table-borderless">
+
+         Contextual Classes
+         is use in  table where we provide row with specifi color providig class
+
+         we can also make table responsive useinh warrpig table into claas .table-responsive
+
+
+         immage
+         we can provide image in tree tyopes rounded with conrer rounded rounded-circle and thumbnail 
+         <img src="cinqueterre.jpg" class="rounded-circle" alt="Cinque Terre" width="304" height="236"> 
+class is use for center the image
+         class="mx-auto d-block"
+         it is use for responsive
+         class="img-fluid" s
+
+   button
+   <button type="button" class="btn">Basic</button>
+<button type="button" class="btn btn-primary">Primary</button>
+The button classes can be used on <a>, <button>, or <input> elements:   
+
+<a href="#" class="btn btn-success">Link Button</a>
+<button type="button" class="btn btn-success">Button</button>
+<input type="button" class="btn btn-success" value="Input Button">
+<input type="submit" class="btn btn-success" value="Submit Button">
+<input type="reset" class="btn btn-success" value="Reset Button">
+
+we also provide outoline the button
+<button type="button" class="btn btn-outline-primary">Primary</button>
+we aslo provide button sizes lg sm 
+<button type="button" class="btn btn-primary btn-lg">Large</button>
+also have block level button which is we use in grid
+
+  <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+
+
+  button-group allow you handle the grop multiple button<div class="btn-group">
+  <button type="button" class="btn btn-primary">Apple</button>
+  <button type="button" class="btn btn-primary">Samsung</button>
+  <button type="button" class="btn btn-primary">Sony</button>
+</div>
+
+ Instead of applying button sizes to every button in a group, use class .btn-group-lg for a large button group or the .btn-group-sm for a small button group:
